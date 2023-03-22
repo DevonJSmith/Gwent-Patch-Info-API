@@ -1,0 +1,30 @@
+run = "dotnet run --urls=http://0.0.0.0:8080"
+entrypoint = "Program.cs"
+
+hidden = ["bin", "obj"]
+
+[env]
+DOTNET_NOLOGO = "1"
+DOTNET_CLI_TELEMETRY_OPTOUT = "1"
+#PATH="$PATH:/home/runner/.dotnet/tools"
+#PATH="$PATH:$HOME/.dotnet/tools"
+#DOTNET_ROOT="$HOME/.dotnet"
+#PATH="$PATH:$DOTNET_ROOT"
+
+[packager]
+language = "dotnet"
+
+[packager.features]
+packageSearch = true
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix"]
+
+[nix]
+channel = "stable-21_11"
+
+[languages.csharp]
+pattern = "**/*.cs"
+
+  [languages.csharp.languageServer]
+  start = ["omnisharp", "--languageserver"]
