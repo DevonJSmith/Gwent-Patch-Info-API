@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XdcEK4FKx6gQSX5bSfzd2Rsi4I4N4JsgHOS1aEoq7MU=",
+  "Source": "gwent-patch-info",
+  "BasePath": "_content/gwent-patch-info",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
