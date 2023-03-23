@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gwent-patch-info", "gwent-patch-info.csproj", "{FF5B9782-E9AC-4DC7-A814-7EE92789CAD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gwent-patch-info.Tests", "gwent-patch-info.Tests\gwent-patch-info.Tests.csproj", "{56D79FAF-E4B6-4AD0-B429-270E05CAC6B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF5B9782-E9AC-4DC7-A814-7EE92789CAD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5B9782-E9AC-4DC7-A814-7EE92789CAD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5B9782-E9AC-4DC7-A814-7EE92789CAD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5B9782-E9AC-4DC7-A814-7EE92789CAD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D79FAF-E4B6-4AD0-B429-270E05CAC6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D79FAF-E4B6-4AD0-B429-270E05CAC6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D79FAF-E4B6-4AD0-B429-270E05CAC6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D79FAF-E4B6-4AD0-B429-270E05CAC6B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
